@@ -1,0 +1,46 @@
+Overview
+
+Build a simple application that will 
+allow any user to build a Restaurant Menu.
+
+Requirements
+
+Data Schema
+
+Dishes ( Model / Table )
+id ( Integer )
+name ( String )
+price ( String )
+created_at ( Timestamp )
+updated_at ( Timestamp )
+Pages
+
+localhost:3000/ Homepage - Displays the Restaurant Menu
+Try to format the dishes in a two column table, similar to how you would normally see a restaurant menu
+localhost:3000/dishes Shows all dishes
+each dish is displayed with options to view, edit, or delete
+there is a link to create a new dish
+localhost:3000/dishes/new form to create new dish
+localhost:3000/dishes/:id/edit form to edit a dish with the given id
+localhost:3000/dishes/:id Lists all information about the dish
+Technologies
+
+Please find places to use a little bit of each of these
+Ruby ( it's going to be hard to avoid )
+HTML ( again, hard to avoid )
+JavaScript ( think of something to use some custom JS for on the menu page )
+CSS ( style the menu )
+Using Helpers / Libraries
+Certainly use Rails magic and Scaffolds to build the base rails app.
+HINT: rails g scaffold Dish name price
+Don't use any borrowed JS, please write any JS yourself
+Don't use any borrowed CSS, please write any CSS yourself
+Not Required / Skip these
+
+User Authentication
+Automated Testing
+
+###########################################################################
+
+
+
